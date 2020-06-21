@@ -1,0 +1,94 @@
+/* CarbonTune 7.0 styles for splash pages */
+
+
+@import url('https://fonts.googleapis.com/css?family=Cabin|Slabo+27px|Molle:italic&display=swap');
+body {
+  background-color: #042020;
+  color: #042020;
+}
+/* Page Header block and font styles*/
+#wrap {
+  width: 80%;
+  overflow: hidden;
+  height: max-content;
+  border-radius: 45% 30px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  display: inline;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+#product_logo {
+  text-align: right;
+  padding-top: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+  margin: 0;
+  font-size: 35px;
+}
+
+.pl_LEFT {
+  font-family: 'Slabo 27px';
+  padding: 0px;
+  margin-right: -11px;
+  color: black;
+  
+}
+
+.pl_RIGHT {
+  font-family: 'Molle';
+  font-size: 30px;
+  color: black;
+  
+}
+
+/* Page Content Block and styles */
+#page_content {
+  padding: 16px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 40px;
+}
+
+.lrgbutton {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #042020;
+  padding: 8px;
+  color: #FFF;
+  font-family: 'Cabin', sans-serif;
+  font-size: 15px;
+  background-color: #042020;
+  text-decoration: none;
+}
+
+.lrgbutton:hover {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #042020;
+	padding: 8px;
+	color: #042020;
+	font-family: 'Cabin', sans-serif;
+	font-size: 15px;
+  background-color: white;
+	text-decoration: none;
+}
+
+/* Footer and styles */
+#footer {
+  padding: 16px;
+  font-size: 8px;
+  font-family: 'Cabin', sans-serif;
+}

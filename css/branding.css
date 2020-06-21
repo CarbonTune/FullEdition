@@ -1,0 +1,18 @@
+/* Branding CSS*/
+
+/* Classes .pl_LEFT and .pl_RIGHT are used exclusively by the <span> tags. 
+ * Contained here for easier updating where needed */
+
+
+
+.pl_LEFT {
+  font-family: 'Slabo 27px', 'Cabin', sans-serif;
+  padding: 0px;
+  margin-right: -14px;
+  font-size: 40px;
+}
+
+.pl_RIGHT {
+  font-family: 'Molle', 'Cabin', sans-serif;
+  font-size: 40px;
+}
